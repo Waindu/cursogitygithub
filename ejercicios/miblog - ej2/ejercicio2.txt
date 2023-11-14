@@ -1,0 +1,24 @@
+EJERCICIO
+A)
+-crear proyecto
+-inicializar repositorio
+-crear una historia
+-crear la rama develop a partir de master
+-realizar un cambio y un commit sobre develop
+-crear rama cambios1 a partir de develop
+-realizar un cambio y un commit sobre cambio1
+-crear rama cambios2 a partir de develop
+-realizar otro cambio sobre una linea diferente(rama cambio2), hacer commit
+-hacer merge de cambios1 y cambios2 en develop
+-hacer merge de develop en master
+
+B)
+-template con index.html/estilos.css y carpeta de img
+-crear un blog utilizando git
+-crear una historia con los cambios
+
+
+Comandos nuevos
+-git branch
+-git checkout
+-git merge

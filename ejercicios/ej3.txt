@@ -1,0 +1,26 @@
+A) Subir repo inicializado en local a un remoto
+
+Crear un repositorio en GitHub con gitignore y readme.md
+Subir a ese repositorio el proyecto realizado en el ej1 o ej2 (repo biografía o repo sito web)
+
+B) Actividad Grupal - (grupos de 4)
+
+crear repositorio github
+teamleader o devop crear el repo en local, inicializarlo y subirlo
+los demas, clonar el repositorio una vez se haya subido
+agregar colaboradores
+crear un gitignore para ignorar todo tipo de archivos .jpg menos uno que deberá subirse al origin o repositorio remoto
+crear una historia en master
+crear rama develop y una pequeña historia en esta rama, hacer un merge con master
+crear una rama para cada persona y su historia (hacer commits de estas ramas y merges a develop)
+crear conflictos de merge entre ramas y solucionarlos en grupo
+hacer pull request para mergear de las ramas propias a develop
+hacer cambios y commits directamente desde github
+mirar historias y blame de archivos en github
+
+
+C) GitHub Pages
+
+Crear un repositorio con una pequeña web mostrando un tema a elección y subirlo a github pages.
+Puede subir su CV, presentación, la web que armaron en el ej2 o lo que se les ocurra.
+https://pages.github.com/

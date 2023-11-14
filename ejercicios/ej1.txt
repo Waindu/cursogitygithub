@@ -1,0 +1,66 @@
+ATAJOS:
+ctrl + L: 		limpiar consola
+ctrl + C: 		detener la ejecución de un proceso
+flecha arriba y abajo:	navegar entre el hisotial de comandos
+tab:			autocompletar
+
+COMANDOS:
+-linea de comandos:
+	pwd: 		muestra el directorio actual
+	cd <ruta>: 	cambiar directorio a <ruta>
+	cd ..: 		vuelvo un directorio hacia atrás
+	ls: 		listar archivos
+	ls -al: 	enumerar en una lista y mostrar ocultos
+	ls -l: 		no muestra los ocultos
+	ls -a: 		igual que ls pero mostrando ocultos
+	clear: 		limpiar la consola
+	
+	mkdir <nombre>: 	crear carpeta
+	touch <archivo>: 	crear archivo vacio
+	cat <archivo>: 		muestra el contenido de un archivo
+	history: 		muestra el historial de comandos utilizados con un indice
+	!<n>: 			ejecuta el comando con indice n (history)
+	rm <archivo>: 		borrar archivo cuidado con este comando
+	<comando> --help: 	ayuda sobre el comando correspondiente
+
+-git:
+	git init: 						inicializa git en el directorio situado
+	git config: 						configuracion
+	git config --list: 					lista de valores configurados
+	git config --global user.name "Nombre Apellido"		setear nombre
+	git config --global user.email "ejemplo@email.com"	setear email
+
+	git status:						muestra el status actual, archivos trackeados, no trackeados, cambios, etc
+	git add <archivo>:					agrega el archivo seleccionado al stagin
+	git add .: 						agrega todo
+	git rm --force <archivo>:				borrar archivos del disco
+	git rm --cached <archivo>: 				quitar archivos del stagin
+	git commit -m "<mensaje>": 				hacemos commit y 
+	git show <archivo>: 					muestra los cambios registrados en un archivo
+
+	git log: 						registro de commits
+	git log --stat:						registro de commits con detalle de cambios
+	git diff: 						compara directorio vs staging
+	git diff <commit id 1> <commit id 2>: 			compara los cambios entre las versiones de los commits 1 y 2		
+	git reset <commit id> --hard: 				vuelvo a la version seleccionada, pierdo cambios en staging
+	git reset <commit id> --soft: 				volvemos sin perder staging
+
+EJERCICIOS:
+	- crear un directorio nuevo para estos ejercicios
+	- inicializar el repositorio git
+	- crear un nuevo directorio y un archivo desde la terminal
+	- editar el archivo desde el IDE agregando varias lineas de texto
+	- comprobar el status de git
+	- agregar el archivo creado al staging
+	- modificar el archivo, reemplazar el texto de la primera línea por otro y agregar algo en la última linea
+	- volver a comprobar el status de git
+	- hacer el primer commit
+	- ver cambios los cambios
+	- volver a modificar el archivo 
+	- realizar otro commit con estos cambios
+	- comparar las versiones entre el primero y el último commit
+	- modificar el archivo por ultima vez borrando todo su contenido
+	- hacer commit
+	- mostar los cambios registrados en el archivo
+	- crear una historia
+	- volver a una versión anterior recuperando el contenido del archivo
