@@ -5,3 +5,6 @@ Repositorio de pruebas para curso de Git y GitHub
     i-  checkout
     ii- revert
     iii-reset
+2) Desarrollo colaborativo 
+soy Ainhoa
+soy Jorge B.
