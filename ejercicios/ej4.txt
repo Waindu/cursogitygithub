@@ -1,0 +1,10 @@
+Ejercicio 4
+
+-crear un repositorio
+-sincronizar local con remoto
+-crear un segundo commit sobre la rama main
+-a partir del segundo commit(main) creamo la rama develop
+-crear un tercer commit en main
+-cambiar a develop y hacer 3 commits
+-mergear rama develop into main usando squash
+-perderemos el detalle de los commits realizados en develop
