@@ -1,0 +1,8 @@
+git tag -a v0.5 -m "tag de v0.5"
+git show-ref --tags
+pig pull origin master
+git push origin --tags
+
+4) ej tags
+
+Crear tags en diferentes puntos de mi rama main
